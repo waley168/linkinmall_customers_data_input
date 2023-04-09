@@ -1,0 +1,51 @@
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.customer-row {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 1rem;
+}
+.input-fields input {
+    font-size: 0.7rem;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.input-field label {
+    margin-top: 0.5rem;
+}
+input[type='number']{
+    max-width: 80px;
+} 
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+    .input-fields input {
+        font-size: 1rem;
+    }
+}
