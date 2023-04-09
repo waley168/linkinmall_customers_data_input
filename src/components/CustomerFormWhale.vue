@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <input type="hidden" class="input-text" name="billing_text_by_vue" id="billing_text_by_vue" placeholder=""
+        <input type="hidden" class="input-text" name="billing_text_by_jq" id="billing_text_by_jq" placeholder=""
             :value="hiddenInputValue">
         <button type="button" class="add_field_button" @click="addCustomer"><i class="fa fa-plus" aria-hidden="true"></i>增加旅客資料</button>
     </div>
