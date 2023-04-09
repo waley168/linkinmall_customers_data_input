@@ -45,7 +45,7 @@ export default {
                 return `${index + 1}. ${customer.name} ${customer.idNumber} ${customer.birthday}`;
             });
 
-            this.hiddenInputValue = customersData.join(', ');
+            this.hiddenInputValue = customersData.join(',');
         },
         addCustomer() {
             const newCustomer = {

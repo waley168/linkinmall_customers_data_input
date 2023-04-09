@@ -57,7 +57,7 @@ export default {
                 return `${index + 1}. ${customer.name} ${customer.idNumber} ${customer.birthday} 身高${customer.height} 體重${customer.weight} 鞋號${customer.shoeSize}`;
             });
 
-            this.hiddenInputValue = customersData.join(', ');
+            this.hiddenInputValue = customersData.join(',');
         },
         addCustomer() {
             const newCustomer = {
